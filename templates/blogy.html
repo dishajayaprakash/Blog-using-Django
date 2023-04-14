@@ -5,7 +5,7 @@
     <div class="media-body">
         <div class="article-metadata">
             <a class="mr-2" href="https://www.imdb.com/title/tt1055292/">{{ post.author }}</a>
-            <small class="text-muted">{{ post.Posted_Date }}</small>
+            <small class="text-muted">{{ post.Posted_Date|date:"dS F, o (D)" }}</small>
         </div>
         <h2><a class="article-title" href="https://www.imdb.com/title/tt2321163/">{{ post.title }}</a></h2>
         <p class="article-content">{{ post.content }}</p>
