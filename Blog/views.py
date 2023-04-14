@@ -3,17 +3,20 @@ from django.http import HttpResponse
 posts = [
     {
         "author": "Disha",
-        "content": "Life",
+        "auth_url": "https://www.imdb.com/title/tt1055292/"
+        "content" : "Life",
         "title": "Life as we know it",
         "Posted_Date": "Today",
     },
     {
         "author": "Diya",
-        "content": "Dance",
+        "auth_url": "https://www.imdb.com/title/tt2321163/"
+        "content" : "Dance",
         "title": "ABCD",
         "Posted_Date": "Yesterday",
     },
 ]
+
 # Create your views here.
 def home_page(request):
     context = {"posts": posts}
