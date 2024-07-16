@@ -11,21 +11,9 @@ Before you begin, ensure you have the following installed:
 
 ## Installation
 
-Clone the repository from GitHub:
-```bash
-git clone https://github.com/dishajayaprakash/Blog-using-Django.git
-cd Blog-using-Django
-```
-
-Set up a virtual environment:
-```bash
-python -m venv env
-source env/bin/activate  # On Windows use `env\Scripts\activate`
-```
-
 Install the required packages:
 ```bash
-pip install -r requirements.txt
+pip install django
 ```
 
 ## Setup
